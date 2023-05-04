@@ -1,7 +1,19 @@
 
+import Header from "./components/header/Header";
+import Hero from "./components/hero/Hero";
+
+import './App.css'
+
 function App() {
   return (
-    <span>subscribe Zainkeepscode</span>
+    <div className="App">
+      <div>
+        <div className="blur"/>
+        <Header />
+        <Hero />
+      </div>
+    </div>
+
   );
 }
 

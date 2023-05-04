@@ -1,0 +1,15 @@
+.header-top {
+    color: var(--secondary);
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.header-links {
+    gap: 2rem;
+}
+
+.header-links > *:hover {
+    cursor: pointer;
+}
+
+

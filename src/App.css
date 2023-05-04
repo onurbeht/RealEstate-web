@@ -1,0 +1,18 @@
+.App {
+    position: relative;
+    overflow-x: clip;
+}
+
+.App > :nth-child(1) {
+    background: var(--black);
+    position: relative;
+}
+
+.blur {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    filter: blur(100px);
+    border-radius: 100px;
+}
