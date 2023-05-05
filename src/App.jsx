@@ -1,8 +1,11 @@
 
-import Header from "./components/header/Header";
-import Hero from "./components/hero/Hero";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Companies from "./components/Companies/Companies";
+
 
 import './App.css'
+import Residencies from "./components/residencies/Residencies";
 
 function App() {
   return (
@@ -12,6 +15,8 @@ function App() {
         <Header />
         <Hero />
       </div>
+      <Companies />
+      <Residencies />
     </div>
 
   );
