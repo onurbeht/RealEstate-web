@@ -7,7 +7,7 @@ const Header = () => {
         <img src="/logo.png" alt="logo" />
         <nav className="flexCenter header-links">
           <a href="#Residencies">Residencies</a>
-          <a href="">Our Values</a>
+          <a href="#OurValues">Our Values</a>
           <a href="">Contact Us</a>
           <a href="">Get Started</a>
           <button className='button'><a href='mailto:emailfake@email.com'>Contact</a></button>

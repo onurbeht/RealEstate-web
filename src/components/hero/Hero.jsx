@@ -10,6 +10,7 @@ const Hero = () => {
     return (
         <section className='hero-wrapper'>
             <div className="paddings innerWidth flexCenter hero-container">
+                
                 {/*left side*/}
                 <div className="flexColStart left">
 
@@ -46,6 +47,7 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
+
                 {/*right side*/}
                 <div className="right">
                     <div className="img-container">

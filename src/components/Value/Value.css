@@ -1,0 +1,63 @@
+.value-wrapper {
+    padding-bottom: 2rem;
+}
+
+.value-container > div {
+    flex: 1;
+}
+
+/* LEFT SIDE*/
+.img-container {
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    border-color: rgba(100, 100, 100, 0.486);
+}
+
+.img-container > img {
+    width: 100%;
+    height: 100%;
+}
+
+/* RIGHT SIDE*/
+
+.right {
+    gap: .5rem;
+}
+
+.accordion {
+    margin-top: 2rem;
+    border: none;
+}
+.a-item {
+    background-color: #fff;
+    border: .8px solid rgba(133, 132, 132, 0.281);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.a-item.expanded {
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+}
+
+.a-button {
+    background-color: #fff;
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.a-button .primaryText {
+    font-size: 1.1rem;
+}
+
+.icon {
+    color: var(--blue);
+    background-color: #eeeeff;
+    padding: .8rem;
+    border-radius: 10px;
+}
+
