@@ -4,7 +4,9 @@ import Hero from "./components/Hero/Hero";
 import Companies from "./components/Companies/Companies";
 import Residencies from "./components/residencies/Residencies";
 import Value from "./components/Value/Value";
-
+import Contact from "./components/Contact/Contact";
+import Started from "./components/Started/Started";
+import Footer from "./components/Footer/Footer";
 
 import './App.css'
 
@@ -19,6 +21,9 @@ function App() {
       <Companies />
       <Residencies />
       <Value />
+      <Contact />
+      <Started />
+      <Footer />
     </div>
 
   );

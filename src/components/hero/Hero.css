@@ -1,6 +1,6 @@
 .hero-wrapper {
     color: #fff;
-    
+    z-index: 1;
     padding-bottom: 2rem;
     position: relative;
 }
@@ -69,7 +69,7 @@
 
 /*right side*/
 .img-container {
-    width: 35rem;
+    width: 30rem;
     height: 35rem;
     border-radius: 20rem 20rem 0 0;
     overflow: hidden;
@@ -82,3 +82,36 @@
 }
 
 
+@media (max-width:640px) {
+    .hero-container {
+        margin-top: 2rem;
+    }
+
+    .title > h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .img-container {
+        width: 95%;
+        height: 25rem;
+    }
+
+    .stats {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .stat> :nth-child(1) {
+        font-size: 1.5rem;
+    }
+
+    .stat> :nth-child(2) {
+        font-size: .8rem;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+}

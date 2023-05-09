@@ -8,16 +8,10 @@
 
 /* LEFT SIDE*/
 .img-container {
-    width: 30rem;
-    height: 30rem;
-    overflow: hidden;
     border-color: rgba(100, 100, 100, 0.486);
 }
 
-.img-container > img {
-    width: 100%;
-    height: 100%;
-}
+
 
 /* RIGHT SIDE*/
 
@@ -59,5 +53,16 @@
     background-color: #eeeeff;
     padding: .8rem;
     border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+    .value-container {
+        flex-direction: column;
+    }
+    @media (max-width:768px) {
+        .a-button .primaryText {
+            font-size: .8rem;
+        }
+    }
 }
 
